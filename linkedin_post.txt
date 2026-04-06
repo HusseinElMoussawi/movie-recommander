@@ -1,0 +1,23 @@
+🎬 Just shipped my Movie Recommendation API — and it's live!
+
+I built a personalised movie recommender from scratch using collaborative filtering (SVD matrix factorisation) on 100,000+ real ratings from the MovieLens dataset.
+
+You send it movies you love → it finds hidden patterns in how thousands of users rate films → and returns movies you're likely to enjoy.
+
+🛠️ Tech stack:
+→ Python + Scikit-learn for the ML model (TruncatedSVD)
+→ FastAPI for the REST API with auto-generated docs
+→ Pandas + NumPy for data processing
+→ Docker for containerisation
+→ Deployed on Hugging Face Spaces
+
+🔗 Try the live API: [your-url-here]
+📂 Full code on GitHub: [your-repo-here]
+
+The interesting challenge was the cold-start problem — if a user hasn't rated anything, you can't personalise. My solution: let users pass any list of movie IDs they like as input, so you get personalisation without needing a user account.
+
+Next step: adding content-based filtering (genres + tags) and measuring quality with NDCG@K.
+
+Happy to answer questions if you're building something similar!
+
+#DataScience #MachineLearning #Python #FastAPI #Portfolio #OpenToWork
