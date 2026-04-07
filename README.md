@@ -142,6 +142,8 @@ docker run -p 8000:8000 movie-recommender
 
 ---
 
+![App Screenshot](assets/demo.png)
+
 ## 📄 License
 
 MIT — free to use and modify.
